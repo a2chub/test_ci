@@ -3,3 +3,7 @@ machine:
     Asia/Tokyo
   node:
     version:0.10.33
+
+dependencies:
+  override:
+    - npm install --dev
