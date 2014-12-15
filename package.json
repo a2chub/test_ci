@@ -18,6 +18,16 @@
   "homepage": "https://github.com/a2chub/test_ci",
   "devDependencies": {
     "phantomjs": "^1.9.12",
-    "protractor": "^1.5.0"
+    "protractor": "^1.5.0,
+    "expect.js": "~0.2.0",
+    "chai": "~1.8.1",
+    "chai-as-promised": "~4.1.0",
+    "jasmine-reporters": "~0.2.1",
+    "jshint": "2.5.0",
+    "mocha": "1.21.4",
+    "cucumber": "~0.3.3",
+    "express": "~3.3.4",
+    "lodash": "~2.4.1",
+    "rimraf": "~2.2.6""
   }
 }
