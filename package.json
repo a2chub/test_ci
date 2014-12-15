@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/a2chub/test_ci",
   "devDependencies": {
+    "phantomjs": "^1.9.12",
     "protractor": "^1.5.0"
   }
 }
