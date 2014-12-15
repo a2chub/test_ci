@@ -19,5 +19,10 @@
   "devDependencies": {
     "phantomjs": "^1.9.12",
     "protractor": "^1.5.0"
+  },
+  {
+    "scripts":{
+      "test":"echo 'test start'"
+    }
   }
 }
