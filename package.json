@@ -1,0 +1,22 @@
+{
+  "name": "test_ci",
+  "version": "0.0.0",
+  "description": "this is test ----------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://a2chub@github.com/a2chub/test_ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a2chub/test_ci/issues"
+  },
+  "homepage": "https://github.com/a2chub/test_ci",
+  "devDependencies": {
+    "protractor": "^1.5.0"
+  }
+}
