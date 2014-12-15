@@ -22,7 +22,7 @@
   },
   {
     "scripts":{
-      "test":"echo 'test start'"
+      "test":"echo test"
     }
   }
 }
