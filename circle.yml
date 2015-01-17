@@ -11,6 +11,12 @@ test:
   override:
     - echo "test":
         pwd: test_src
+    - echo $APPENGINE_PASSWORD:
+        pwd: test_src
+    - echo $APPENGINE_EMAIL:
+        pwd: test_src
+
+
 
 deployment:
   appengine:
