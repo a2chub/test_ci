@@ -18,4 +18,9 @@ deployment:
     commands:
       - echo $APPENGINE_PASSWORD | $HOME/google_appengine/appcfg.py update --email=$APPENGINE_EMAIL --passin a2c-gce-2013
 
+  appengine:
+    branch: develop
+    commands:
+      - echo $APPENGINE_PASSWORD | $HOME/google_appengine/appcfg.py update --email=$APPENGINE_EMAIL --passin a2c-gce-2013
+
 
