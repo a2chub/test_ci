@@ -1,9 +1,21 @@
 machine:
   timezone:
     Asia/Tokyo
-  node:
-    version:0.10.33
 
 dependencies:
+  pre:
+    - curl -o $HOME/google_appengine_1.9.17.zip https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.17.zip
+    - unzip -q -d $HOME $HOME/google_appengine_1.9.17.zip
+
+test:
   override:
-    - npm install --dev
+    - echo "test":
+        pwd: test_src
+
+deployment:
+  appengine:
+    branch: master
+    commands:
+      - echo $APPENGINE_PASSWORD | $HOME/google_appengine/appcfg.py update --email=$APPENGINE_EMAIL --passin a2c-gce-2013
+
+
