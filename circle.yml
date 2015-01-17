@@ -11,12 +11,6 @@ test:
   override:
     - echo "test":
         pwd: test_src
-    - echo $APPENGINE_PASSWORD:
-        pwd: test_src
-    - echo $APPENGINE_EMAIL:
-        pwd: test_src
-
-
 
 deployment:
   appengine:
@@ -27,7 +21,8 @@ deployment:
   appengine:
     branch: develop
     commands:
-      - echo $APPENGINE_PASSWORD | $HOME/google_appengine/appcfg.py update --email=$APPENGINE_EMAIL --passin a2c-gce-2013
+       - echo `ls`:
+#      - echo $APPENGINE_PASSWORD | $HOME/google_appengine/appcfg.py update --email=$APPENGINE_EMAIL --passin a2c-gce-2013
 
 
 
